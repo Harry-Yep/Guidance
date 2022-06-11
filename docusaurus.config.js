@@ -10,7 +10,7 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: '生活指北',
-    tagline: 'OK 的生活全记录',
+    tagline: 'Okey 的生活日志',
     url: 'https://life.okis.dev',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -90,18 +90,12 @@ const config = {
                 { property: 'og:description', content: "Harry Yep's Guidance" },
             ],
             navbar: {
-                title: 'Guidance',
+                title: 'Life Guide',
                 logo: {
                     alt: 'logo',
                     src: 'https://cdn.harrly.com/favicon.ico',
                 },
                 items: [
-                    {
-                        type: 'doc',
-                        docId: 'intro',
-                        position: 'left',
-                        label: 'Tutorial',
-                    },
                     {
                         to: '/blog',
                         label: 'Blog',
@@ -118,16 +112,20 @@ const config = {
                 style: 'dark',
                 links: [
                     {
-                        title: 'Docs',
+                        title: 'Projects',
                         items: [
                             {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
+                                label: 'Notion Blog React',
+                                href: 'https://nbr.okis.dev',
+                            },
+                            {
+                                label: 'Notion Photo React',
+                                href: 'https://npr.okis.dev',
                             },
                         ],
                     },
                     {
-                        title: 'More',
+                        title: '更多',
                         items: [
                             {
                                 label: 'Blog',
