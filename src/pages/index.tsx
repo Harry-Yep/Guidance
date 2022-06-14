@@ -31,7 +31,16 @@ const cardList: cardListItem[] = [
         items: [
             {
                 name: '英国学习生活',
-                href: '/docs/study/uk/intro',
+                href: '/docs/study/uk',
+            },
+        ],
+    },
+    {
+        title: '旅行',
+        items: [
+            {
+                name: '🇲🇴 澳门',
+                href: '/docs/travel/Macao/intro',
             },
         ],
     },
